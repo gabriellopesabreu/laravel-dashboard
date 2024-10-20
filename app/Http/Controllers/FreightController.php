@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Batch;
+use App\Models\Freight;
 use Illuminate\Http\Request;
 
-class BatchController extends Controller
+class FreightController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,15 +34,15 @@ class BatchController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Batch $batch)
+    public function show(Freight $freight)
     {
-        return view('livewire.batch-component');
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Batch $batch)
+    public function edit(Freight $freight)
     {
         //
     }
@@ -50,7 +50,7 @@ class BatchController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Batch $batch)
+    public function update(Request $request, Freight $freight)
     {
         //
     }
@@ -58,7 +58,7 @@ class BatchController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Batch $batch)
+    public function destroy(Freight $freight)
     {
         //
     }
